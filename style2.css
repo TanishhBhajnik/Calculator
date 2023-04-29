@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+}
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin-top: 90px;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+.operator:hover {
+    background-color: orange;
+}
+.equalbtn:hover {
+    background-color: aliceblue;
+}
+
+button {
+    margin: 0 3px;
+    border: 2px solid black;
+    padding: 13px;
+    width: 50px;
+    background: transparent;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+.operator {
+    font-weight: bolder;
+    margin: 0 3px;
+    border: 2px solid black;
+    padding: 13px;
+    width: 50px;
+    border-radius: 9px;
+    background: transparent;
+    cursor: pointer;
+    background-color:aqua ;
+}
+.equalbtn {
+    margin: 0 3px;
+    border: 2px solid black;
+    padding: 13px;
+    width: 50px;
+    border-radius: 9px;
+    background: transparent;
+    cursor: pointer;
+    background-color:orangered ;
+}
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    font-size: 16px;
+    margin: 0;
+    width: 230px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: right;
+}
